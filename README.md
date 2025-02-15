@@ -30,3 +30,12 @@ Din lectia 12 s-au folosit:
 
 - Aplicarea a cel puțin 2 dintre cele 6 concepte prezentate la lecția 12, pe proiectul individual.
 - Pentru validare, se vor specifica cele 2 concepe alese și se va trimite fie link cu GitHub Repository al proiectului, fie zip cu fișierele de cod
+
+### Tema 9
+- Introducerea unei excepții standard și a unei excepții proprii acolo unde există vulnerabilități în cod. (10p)
+  - in utils/date_utils.py  este implementata InvalidDateException
+  - in utils/date_utils.py in functia transform_date, ValueError si InvalidDateException sunt folosite
+- Scrierea a 2 teste folosind pytest (10p)
+  - Testarea unei date valide
+  - Testarea diferentei dintre doua date
+- Pentru validare, se vor specifica excepțiile folosite și se va trimite fie link cu GitHub Repository al proiectului, fie zip cu fișierele de cod
