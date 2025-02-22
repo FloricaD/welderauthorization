@@ -39,3 +39,8 @@ Din lectia 12 s-au folosit:
   - Testarea unei date valide
   - Testarea diferentei dintre doua date
 - Pentru validare, se vor specifica excepțiile folosite și se va trimite fie link cu GitHub Repository al proiectului, fie zip cu fișierele de cod
+
+### Tema 10.
+
+- Folosirea fișierelor în proiect - se va implementa la alegere o operațiune specifică fișierelor. E.g.: citirea ofertei de produse din fișier, salvarea dobânzii calculate în fișier etc.
+- In utils/input_welder.py am implementat read_welders_from_file, care citeste din fisierul valabilitate autorizatii.csv urmatoarele: numele si prenumele sudorului; denumirea firmei si data expirarii autorizatiei.

@@ -14,7 +14,7 @@ def read_date(text: str):
     while True:
         expiration_date = input(f"{text} (format: day/month/year) :")
         try:
-            date = transform_date(expiration_date)
+            date = transform_date(expiration_date, "/")
             return date
         except (InvalidDateException, ValueError):
             print("Please insert the date again!")
@@ -44,8 +44,8 @@ def validate_date(day: int, month: int, year: int):
         raise InvalidDateException
 
 
-def transform_date(text: str) -> tuple[int, int, int]:
-    day, month, year = text.split("/")
+def transform_date(text: str, separator) -> tuple[int, int, int]:
+    day, month, year = text.split(separator)
     try:
         day = int(day)
         month = int(month)
